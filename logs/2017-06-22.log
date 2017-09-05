@@ -1,0 +1,6 @@
+2017-06-22 14:57:52.006 INFO waitter.notify: Receive data from WeChat : 
+2017-06-22 14:57:52.009 ERROR WxPayData: 将空的xml串转换为WxPayData不合法!
+2017-06-22 14:57:52.063 ERROR waitter.notify: Sign check error : <xml><return_code><![CDATA[FAIL]]></return_code><return_msg><![CDATA[将空的xml串转换为WxPayData不合法!]]></return_msg></xml>
+2017-06-22 14:57:56.028 INFO waitter.notify: Receive data from WeChat : 
+2017-06-22 14:57:56.029 ERROR WxPayData: 将空的xml串转换为WxPayData不合法!
+2017-06-22 14:57:56.029 ERROR waitter.notify: Sign check error : <xml><return_code><![CDATA[FAIL]]></return_code><return_msg><![CDATA[将空的xml串转换为WxPayData不合法!]]></return_msg></xml>

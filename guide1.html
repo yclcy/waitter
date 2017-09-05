@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+    <title>title</title>
+    <link rel="stylesheet" type="text/css" href="/Content/aui/api.css" />
+    <link rel="stylesheet" type="text/css" href="/Content/aui/aui.css" />
+    <link rel="stylesheet" type="text/css" href="/Content/aui/weui.css" />
+    <link rel="stylesheet" type="text/css" href="/Content/aui/iconfont.css" />
+    <style>
+        html,
+        body {
+            background: none !important;
+        }
+
+        #step1,
+        #step2,
+        #step3 {
+            display: block;
+            height: 20px;
+            line-height: 20px;
+        }
+
+        .aui-grid [class*=aui-col-] {
+            display: table-cell;
+            position: relative;
+            text-align: center;
+            vertical-align: middle;
+            padding: 0rem 0 !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="aui-content-padded">
+        <p id="msg">您未完成实名认证，请上传您的身份证。</p>
+        <section class="aui-grid aui-margin-t-15">
+            <div class="aui-row aui-margin-t-15">
+                <div class="aui-col-xs-1">&nbsp;</div>
+                <div class="aui-col-xs-2" style="padding:-5px !important;">
+                    <div id="step1" class="aui-font-size-14 aui-text-gray">①</div>
+                </div>
+                <div class="aui-col-xs-2">
+                    <div class="aui-border-t" style="display:block;margin-top:8px;">&nbsp;</div>
+                </div>
+                <div class="aui-col-xs-2" style="padding:-5px;">
+                    <div id="step2" class="aui-font-size-14 aui-text-gray">②</div>
+                </div>
+                <div class="aui-col-xs-2">
+                    <div class="aui-border-t" style="display:block;margin-top:8px;">&nbsp;</div>
+                </div>
+                <div class="aui-col-xs-2" style="padding:-5px;">
+                    <div id="step3" class="aui-font-size-14 aui-text-gray">③</div>
+                </div>
+                <div class="aui-col-xs-1">&nbsp;</div>
+            </div>
+            <div class="aui-row">
+                <div class="aui-col-xs-4">
+                    <div class="aui-grid-label aui-text-gray aui-font-size-12">实名认证</div>
+                </div>
+                <div class="aui-col-xs-4">
+                    <div class="aui-grid-label aui-text-gray aui-font-size-12">上传健康证</div>
+                </div>
+                <div class="aui-col-xs-4">
+                    <div class="aui-grid-label aui-text-gray aui-font-size-12">技能培训</div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

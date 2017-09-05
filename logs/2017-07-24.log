@@ -1,0 +1,82 @@
+2017-07-24 15:00:24.216 INFO waitter.notify: Check sign success
+2017-07-24 15:00:47.960 INFO waitter.notify: Check sign success
+2017-07-24 15:02:30.543 INFO waitter.notify: Check sign success
+2017-07-24 15:02:31.800 INFO waitter.notify: [
+  {
+    "id": "59759a21932fd8d625adef3a",
+    "money": 0.01,
+    "status": 1,
+    "type": 0,
+    "cardNo": null,
+    "bankName": null,
+    "realName": null,
+    "title": "充值(微信支付)",
+    "from": "oi6uo029lHeRTMymHTyYVUau6kic",
+    "createdAt": "2017-07-24T06:56:33.23Z",
+    "updatedAt": "2017-07-24T07:02:31.714Z",
+    "shop": "5973618937caa5892d1cea2c",
+    "orderid": null,
+    "user": "59735df4599bafde6bec8aa1",
+    "record": null,
+    "ip": "196.168.1.1"
+  },
+  {
+    "balance": 896.03,
+    "point": 0,
+    "credit": 100,
+    "comment": 1,
+    "cancel": 0,
+    "finish": 13,
+    "papersdetail": {
+      "jiankang": {
+        "content": "http://www.jkz.sh.cn:80/userInfo.html?id=4F220187DF1D7E4EE05351BFA8C0CAE2",
+        "expire": "2018-07-22",
+        "type": 1
+      },
+      "idcard": {
+        "idimage": "http://ae465253a6b1619e5400.b0.upaiyun.com/apicloud/4459cc20eba307807b79a56f236351d3.jpg",
+        "address": "江苏省盐城市盐都区龙冈镇兴福村七组17号",
+        "gender": "男",
+        "idnumber": "320911197910073116",
+        "name": "刘长勇",
+        "byear": "1979",
+        "bmonth": "10",
+        "bday": "07"
+      }
+    },
+    "commentdetail": [],
+    "usertype": 0,
+    "today": 0,
+    "invited": "",
+    "invite": "rky0my",
+    "verified": true,
+    "study": false,
+    "pointHistory": 0,
+    "expire": false,
+    "userstatus": 1,
+    "geo": {
+      "lng": 121.5561,
+      "lat": 31.1741
+    },
+    "bank": [],
+    "shops": [],
+    "city": "上海市",
+    "face": null,
+    "idnumber": null,
+    "createdAt": "2017-07-22T14:15:16.575Z",
+    "updatedAt": "2017-07-24T07:02:31.731Z",
+    "id": "59735df4599bafde6bec8aa1",
+    "realm": null,
+    "username": "13818786933",
+    "mobile": "13818786933",
+    "email": null,
+    "emailVerified": null,
+    "verificationToken": null,
+    "credentials": [],
+    "challenges": [],
+    "status": null,
+    "shop": "5973618937caa5892d1cea2c",
+    "papers": null
+  }
+]
+2017-07-24 15:02:31.803 INFO waitter.notify: 微信充值处理成功
